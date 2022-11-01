@@ -1,0 +1,704 @@
+@font-face {
+    font-family: 'Montserrat', 'Sans-serif';
+    font-family: 'Noto Sans KR', 'Sans-serif';
+}
+
+h1,
+.h1-main,
+.h1-main2,
+.h1-title,
+h2,
+.h2-app,
+.h2-main,
+.h2-title,
+.h2-tag,
+.h2-mm4,
+h3,
+.h3-app,
+.h3-reserved,
+.h3-mm4-reserved,
+.h3-contact-kr,
+.h3-contact-en,
+.h4-contact,
+h4,
+.h4-app,
+h5,
+p,
+.p-page,
+.p-mm4,
+.p-mm4-date,
+.p-mm4-contact,
+li {
+    word-break: keep-all;
+    -webkit-hyphens: auto;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+
+h1,
+.h1-main,
+.h1-main2,
+h2,
+.h2-app,
+.h2-main,
+.h2-title,
+h3,
+.h3-app,
+.h3-contact-kr,
+h4,
+.h4-app,
+h5,
+p,
+.p-page,
+.p-mm4 {
+    font-family: 'Noto Sans KR', 'Sans-serif';
+}
+
+.h1-main-en,
+.h1-main-en-x,
+.h1-title,
+.h2-tag,
+.h2-mm4,
+.h3-app-en,
+.h3-btn-en,
+.h3-reserved,
+.h3-mm4-reserved,
+.h3-contact-en,
+.h4-contact,
+.p-mm4-date,
+.p-mm4-contact,
+li {
+    font-family: 'Montserrat', 'Sans-serif';
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0rem;
+    line-height: 1.4;
+    color: #3c3c3c;
+}
+
+.h1-main {
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h1-main2 {
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.h1-main-en {
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h1-main-en-x {
+    font-weight: 300;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h1-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: normal;
+    color: #000;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #3c3c3c;
+}
+
+.h2-app {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h2-main {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h2-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    line-height: normal;
+    color: #fff;
+    /* text-shadow: 0px 0px 4px #666; */
+}
+
+.h2-tag {
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    line-height: normal;
+    color: #fff;
+}
+
+.h2-mm4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: normal;
+    color: #000;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #3c3c3c;
+}
+
+.h3-app {
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #fff;
+    transition: color 0.1s ease-out;
+    /* text-shadow: 0px 0px 4px #666; */
+}
+
+.h3-app-en {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: #fff;
+    transition: color 0.1s ease-out;
+    /* text-shadow: 0px 0px 4px #666; */
+}
+
+.h3-btn-en {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h3-reserved {
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    line-height: normal;
+    color: #fff;
+}
+
+.h3-mm4-reserved {
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    line-height: normal;
+    color: #000;
+}
+
+.h3-contact-kr {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.h3-contact-en {
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #3c3c3c;
+}
+
+.h4-app {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: rgb(238, 238, 238);
+    transition: color 0.1s ease-out;
+}
+
+.h4-contact {
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 0.03rem;
+    line-height: 1;
+    color: #fff;
+    font-style: italic;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #3c3c3c;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    color: #3c3c3c;
+}
+
+.p-page {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    color: #3c3c3c;
+}
+
+.p-mm4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.4;
+    color: #000;
+}
+
+.p-mm4-date {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    color: #000;
+}
+
+.p-mm4-contact {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    color: #000;
+}
+
+a {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.8;
+    color: #ff7b61;
+}
+
+li {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: normal;
+    color: #000;
+    transition: color 0.1s ease-out;
+}
+
+li:hover {
+    color: #FB562C;
+    transition: color 0.1s ease-out;
+}
+
+#main .li_apps,
+#news .li_news,
+#contact .li_contact {
+    font-weight: 500;
+    /* border-bottom: 2px solid #000; */
+}
+
+.line {
+    border: solid 0.5px #dddddd;
+}
+
+.line-contact {
+    width: 50px;
+    border: solid 1px #fff;
+}
+
+.tc-bb {
+    color: #FD823E;
+}
+
+.backdrop {
+    background: rgba(255, 2555, 255, 0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+
+/* .bg-mm4-menu{background: linear-gradient(140deg, #faa290, #e26a52);} */
+
+.heightvh-header {
+    height: calc(100vh - 6rem);
+}
+
+.heightvh-footer {
+    height: calc(100vh - 8rem);
+}
+
+.heightvh-hf {
+    height: calc(100vh - 14rem);
+}
+
+
+/* .main_space{
+    width: 100%;
+    height: 8rem;
+} */
+
+.btn_link {
+    width: 150px;
+    height: auto;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 1);
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: #fff; */
+}
+
+
+/* .btn_link:hover{
+    background-color: rgba(0, 0, 0, 1);
+} */
+
+.app_space {
+    width: 100%;
+    height: 2rem;
+}
+
+.app {
+    width: auto;
+    height: auto;
+    margin: 24px 0 24px 0;
+    padding: 24px 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app:hover .h3-app,
+.app:hover .h3-app-en,
+.app:hover .h4-app {
+    color: #FB562C;
+    transition: color 0.1s ease-out;
+}
+
+.app_icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.app_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.darkswitch {
+    width: 16.6%;
+    height: 200px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.darkfield {
+    width: 16.6%;
+    height: 200px;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+    background-color: #000;
+}
+
+.news_content_width {
+    width: 60%;
+}
+
+.news_row_left_img {
+    width: 45%;
+    height: 45%;
+}
+
+
+/* .news_row_right_txt{
+    width: 50%;
+} */
+
+.news_row_right_mid_img {
+    width: 40%;
+}
+
+#pc-menu {
+    display: block;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+#mobile-btn {
+    display: none;
+}
+
+#main2 {
+    background-image: url("/imgs/main/main_200430_2.JPG");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainD {
+    background-image: url("/imgs/news/news_190928/bb_main10.JPG");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main1 {
+    background-image: url("/imgs/main/main_datestamp_2.JPG");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app {
+    /* background-image: url("/imgs/main/main_city.JPG");
+    background-position: center bottom;
+	background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: linear-gradient(140deg,#37005752, #4400916c); */
+    /* background: linear-gradient(160deg, #016655, #dfbbd1); */
+    background: linear-gradient(160deg, #0792a2, #223642);
+}
+
+#contact-bg {
+    background-image: url("/imgs/main/main1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mm4-date {
+    width: 60px;
+    text-align: center;
+    /* margin-left: 5px; */
+    margin-right: 1rem;
+}
+
+.mm4-subtitle {
+    width: 60px;
+    text-align: center;
+}
+
+.list-mm4 {
+    width: 100%;
+    height: 50px;
+    /* border-top: solid 0.5px #cacaff; */
+    /* border-top: solid 0.5px #9f9fff; */
+    border-top: solid 0.5px rgb(39, 39, 39);
+}
+
+.list-mm4:hover {
+    /* background-color: #5858581f; */
+    background-color: #ececec;
+    /* background: linear-gradient(140deg, #faa290, #e26a52); */
+}
+
+.bg-timeline {
+    background-color: #f1f1f1;
+    /* background: linear-gradient(160deg, #0792a2, #223642); */
+}
+
+.br-bottom-mm4 {
+    /* border-bottom: solid 0.5px #9f9fff; */
+    border-bottom: solid 0.5px rgb(39, 39, 39);
+}
+
+.about-mm4 {
+    width: 100%;
+    height: 80vh;
+    border-top: solid 0.5px rgb(39, 39, 39);
+    border-bottom: solid 0.5px rgb(39, 39, 39);
+}
+
+.mm4-list-title {
+    width: 100%;
+}
+
+.mm4-list-title2 {
+    width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    #pc-menu {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+    }
+    #mobile-btn {
+        display: block;
+    }
+    #footer {
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    #footer_logo {
+        justify-content: center;
+        /* height: 4rem; */
+    }
+    #footer_right {
+        display: none;
+        /* height: 3rem; */
+    }
+    #main1 {
+        height: calc(100vh - 12rem);
+        background-position: 60% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #main2 {
+        height: calc(100vh - 12rem);
+        background-position: 10% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #mainD {
+        background-image: url("/imgs/news/news_190928/bb_main9.JPG");
+        height: calc(100vh - 12rem);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #main_align,
+    #main2_align {
+        text-align: center;
+        /* margin-top: 6rem; */
+    }
+    #darkfield_main,
+    #darkfield_main2 {
+        height: calc(100vh - 12rem);
+        opacity: 0.15;
+    }
+    #darkfield_main3 {
+        display: none;
+    }
+    .news_row_left_img {
+        width: 100%;
+    }
+    .news_row_right_mid_img {
+        width: 80%;
+    }
+    /* .news_row_right_txt{
+        margin-top: 4rem;
+    } */
+    #news_row_align {
+        flex-direction: column;
+    }
+    #app {
+        height: auto;
+    }
+    .app_space {
+        width: 100%;
+        height: 4rem;
+    }
+    #app_align {
+        flex-direction: column;
+        width: 100%;
+        margin: 4rem 0 4rem 0;
+    }
+    .app,
+    .darkfield,
+    .darkswitch {
+        width: 100%;
+    }
+    .app {
+        align-items: center;
+    }
+    .app_icon {
+        width: 50px;
+        height: 50px;
+    }
+    .app_title {
+        width: 50%;
+        align-items: center;
+    }
+    .main_space {
+        display: none;
+    }
+    .col-12-8rem,
+    .col-8,
+    .news_content_width {
+        width: calc(100% - 4rem);
+    }
+    .h2-title,
+    .h3-app,
+    .h3-app-en {
+        /* text-shadow: 0px 0px 4px #666; */
+    }
+    .h2-mm4 {
+        font-weight: 600;
+    }
+    .h3-mm4-reserved {
+        font-weight: 400;
+    }
+    li {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 48px;
+    }
+    .p-mm4 {
+        font-weight: 400;
+    }
+    .p-mm4-date {
+        font-weight: 400;
+    }
+    .p-mm4-contact {
+        font-weight: 600;
+    }
+    .mm4-list-title,
+    .mm4-list-title2 {
+        width: 80%;
+    }
+}

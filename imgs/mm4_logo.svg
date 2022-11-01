@@ -1,0 +1,21 @@
+<svg width="70" height="70" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mm4_box</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(7870 -5612)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -7870 5612L -7800 5612L -7800 5682L -7870 5682L -7870 5612Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="mm4_box" clip-path="url(#clip-0)">
+<g id="Union">
+<use xlink:href="#path0_fill" transform="translate(-7870 5662)" fill="#FFFFFF"/>
+</g>
+<g id="Union">
+<use xlink:href="#path1_fill" transform="translate(-7850 5627)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 10 0L 0 0L 0 10L 0 20L 10 20L 10 10L 20 10L 20 20L 30 20L 30 10L 40 10L 40 20L 50 20L 50 10L 50 0L 40 0L 30 0L 20 0L 10 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 10 0L 20 0L 30 0L 40 0L 50 0L 50 10L 50 20L 50 25L 50 35L 50 45L 50 55L 40 55L 40 45L 40 35L 40 25L 40 20L 40 10L 30 10L 30 20L 30 25L 20 25L 20 20L 20 10L 10 10L 10 20L 10 25L 0 25L 0 20L 0 10L 0 0Z"/>
+</defs>
+</svg>

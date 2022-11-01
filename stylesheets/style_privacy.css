@@ -1,0 +1,119 @@
+*{margin: 0; padding: 0; outline: 0;}
+
+*{-webkit-font-smoothing: antialiased;}
+
+@font-face{font-family: 'Montserrat'; font-family: 'Noto Sans KR', 'Sans-serif';}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+    background-color: #000;
+}
+
+.feica-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.h1-title-en{
+    font-family: 'Montserrat', 'Sans-serif';
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    line-height: 1.2;
+    color: #fff;
+    word-break: keep-all;
+    -webkit-hyphens: auto;
+    white-space: nowrap;
+}
+
+.p-content-en{
+    font-family: 'Montserrat', 'Sans-serif';
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0rem;
+    line-height: 1.6;
+    color: #fff;
+    word-break: keep-all;
+    -webkit-hyphens: auto;
+}
+
+.col-12{width: 100%;}
+
+.col-11{width: 90%;}
+
+.mt-2{margin-top: 2rem;}
+
+.mb-2{margin-bottom: 2rem;}
+
+.mb-1{margin-bottom: 1rem;}
+
+
+/*flex, position*/
+
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+  
+.block{display: block;}
+  
+.inline{display: inline;}
+  
+.inlineblock{display: inline-block;}
+  
+.none{display: none;}
+  
+  
+.fixed{position: fixed;}
+  
+.absol{position: absolute;}
+  
+.rela{position: relative;}
+  
+  
+.vt{flex-direction: column;}
+  
+.hz{flex-direction: row;}
+  
+
+.center{
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;  
+}
+  
+.right{justify-content: flex-end;}
+  
+.left{justify-content: flex-start;}
+  
+.around{justify-content: space-around;}
+  
+.between{justify-content: space-between;}
+  
+
+.bottom{align-items: flex-end;}
+  
+.top{align-items: flex-start;}
+  
+.vt-center{
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+  
+.vt-base{align-items: baseline;}
