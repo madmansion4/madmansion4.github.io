@@ -7,7 +7,8 @@
     <base href="/">
     <meta name="description" content="MADMANSION4">
     <meta name="author" content="MADMANSION4">
-    <meta name="keywords" content="MADMANSION4, filmlike, filmlike new york, filmlike kyoto, filmlike busan, filmlike praha, filmlike city, feica, blog, feica blog, feica apps, feica app, feica newyork, feica kyoto, feica busan, 페이카, filter, filter app, camera app, instagram, analog, retro, vintage">
+    <meta name="keywords"
+        content="MADMANSION4, filmlike, filmlike new york, filmlike kyoto, filmlike busan, filmlike praha, filmlike city, feica, blog, feica blog, feica apps, feica app, feica newyork, feica kyoto, feica busan, 페이카, filter, filter app, camera app, instagram, analog, retro, vintage">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:100' rel='stylesheet' type='text/css'>
@@ -46,6 +47,64 @@
 
 <body class="bg-bb">
     <div class="therewillbelight bg-timeline" id="god">
+
+        <header class="fixed flex center vt-center col-12 height6 z10000 backdrop">
+            <div class="flex between vt-center col-12-8rem">
+                <a class="flex vt-center height6 f0" href="/">
+                    <h1 class="h1-title">FILMLIKE</h1>
+                    <!-- <h2 class="h2-title ml-1">FILMLIKE</h2> -->
+                </a>
+                <nav class="col-4" id="pc-menu">
+                    <ul class="flex right vt-center" id="menu_ul">
+                        <!-- <div onClick="fnApps()">
+                        <li class="mr-4 li_apps">Apps</li>
+                    </div> -->
+                        <a href="/#app">
+                            <li class="mr-4 li_apps">Apps</li>
+                        </a>
+                        <a href="/news.html">
+                            <li class="mr-4 li_news">News</li>
+                        </a>
+                        <a href="/contact.html">
+                            <li class="mr-4 li_contact">Contact</li>
+                        </a>
+                        <a class="f0" href="https://instagram.com/filmlike_me" target="_blank">
+                            <img class="width25 height25" src="imgs/icon_insta.svg">
+                        </a>
+                    </ul>
+                </nav>
+                <div class="pointer f0" id="mobile-btn">
+                    <img class="width25 height25" src="imgs/btn_menu.svg" id="hamburger">
+                    <img class="width25 height20" src="imgs/btn_close2.svg" id="close">
+                </div>
+            </div>
+
+            <!-- 모바일 메뉴 -->
+            <div class="absol col-12 heightA top-0 mt-6" id="mobile-menu">
+                <nav class="col-12 backdrop">
+                    <ul class="flex vt vt-center" id="m_menu_ul">
+                        <!-- <a class="col-12 mt-2" onClick="fnApps()">
+                        <li class="li_apps">Apps</li>
+                    </a> -->
+                        <a class="col-12 mt-2" href="/#app">
+                            <li class="li_apps">Apps</li>
+                        </a>
+                        <a class="col-12" href="/news.html">
+                            <li class="li_news">News</li>
+                        </a>
+                        <a class="col-12" href="/contact.html">
+                            <li class="li_contact">Contact</li>
+                        </a>
+                        <a class="col-12 mb-2" href="https://instagram.com/filmlike_me" target="_blank">
+                            <li class="">Instagram</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="fixed col-12 heightvh bg-bb op-07" id="bg-close"></div>
+            </div>
+
+
+        </header>
 
         <div class="col-12 flex center top-0">
             <div class="col-11 flex center vt-center height8">
@@ -87,7 +146,8 @@
                     <div class="mm4-subtitle">
                         <p class="p-mm4-contact">Contact</p>
                     </div>
-                    <a class="mm4-list-title2 flex center mb-1 mt-05" href="mailto:madmansion4@gmail.com" target="_blank">
+                    <a class="mm4-list-title2 flex center mb-1 mt-05" href="mailto:madmansion4@gmail.com"
+                        target="_blank">
                         <p class="p-mm4 text-center">madmansion4@gmail.com</p>
                     </a>
                 </div>
@@ -96,6 +156,21 @@
         </div>
 
         <div class="col-12 height6"></div>
+
+        <footer class="flex center bottom col-12 heightA">
+            <div class="flex between vt-center col-12-8rem" id="footer">
+                <nav class="col-4 flex">
+                    <ul class="col-12 flex vt-center f0" id="footer_logo">
+                        <a class="flex height8" href="/timeline.html">
+                            <img class="width120 heightA" src="imgs/mm4_logo_new.svg">
+                        </a>
+                    </ul>
+                </nav>
+                <div class="col-8 flex vt-center right height8" id="footer_right">
+                    <h3 class="h3-reserved">© MADMANSION4 2020. All rights reserved.</h3>
+                </div>
+            </div>
+        </footer>
 
     </div>
 </body>
